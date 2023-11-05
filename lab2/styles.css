@@ -1,0 +1,65 @@
+/* 通用样式设置，适用于所有元素 */
+* {
+    padding: 0;
+    /* 去除内边距 */
+    margin: 0;
+    /* 去除外边距 */
+    box-sizing: border-box;
+    /* 设置框模型为border-box，以确保元素宽度和高度包括内边距和边框 */
+}
+
+/* 对整个页面的样式设置 */
+body {
+    margin: 0;
+    /* 去除body元素的外边距 */
+    font-family: Arial, sans-serif;
+    /* 设置文本字体为Arial或sans-serif字体 */
+    background-image: url("src/bg.jpg");
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 背景图片填充整个容器 */
+    background-repeat: no-repeat;
+    /* 背景图片不重复 */
+    background-attachment: fixed;
+    /* 背景图片固定不滚动 */
+    display: flex;
+    /* 使用Flex布局 */
+    flex-direction: column;
+    /* 子元素在垂直方向排列 */
+    align-items: center;
+    /* 沿水平方向居中对齐 */
+    justify-content: center;
+    /* 沿垂直方向居中对齐 */
+    height: 100vh;
+    /* 设置高度为视口的高度，以充满整个屏幕 */
+}
+
+/* .logo 类的样式设置 */
+.logo {
+    height: 60px;
+    /* 设置高度为60像素 */
+    margin-top: 10px;
+    /* 在顶部添加10像素的外边距 */
+}
+
+/* .name 类的样式设置 */
+.name {
+    background-color: rgb(28, 118, 201);
+    /* 设置背景颜色为RGB(28, 118, 201) */
+    border-radius: 20px;
+    /* 设置边框圆角半径为20像素 */
+    padding: 20px;
+    /* 设置内边距为20像素，以增加内容与边框之间的间距 */
+    text-align: center;
+    /* 文本居中对齐 */
+}
+
+/* .text 类的样式设置 */
+.text {
+    color: aliceblue;
+    /* 设置文本颜色为aliceblue */
+    margin: 10px 0;
+    /* 设置上下外边距为10像素，左右外边距为0，以增加文本之间的间距 */
+    font-size: 18px;
+    /* 设置字体大小为18像素 */
+}
